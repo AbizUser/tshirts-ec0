@@ -2,10 +2,10 @@ import Image from 'next/image'
 import { Button } from '@/app/components/ui/button'
 
 const tshirts = [
-  { id: 1, name: 'サンセットドリーム', price: '¥3,900', image: '/placeholder.svg?height=400&width=300' },
-  { id: 2, name: 'オーシャンブリーズ', price: '¥3,600', image: '/placeholder.svg?height=400&width=300' },
-  { id: 3, name: 'アーバンジャングル', price: '¥4,200', image: '/placeholder.svg?height=400&width=300' },
-  { id: 4, name: 'コズミックナイト', price: '¥3,800', image: '/placeholder.svg?height=400&width=300' },
+  { id: 1, name: 'サンセットドリーム', price: '¥3,900', image: '/images/tshirts/connection.png' },
+  { id: 2, name: 'オーシャンブリーズ', price: '¥3,600', image: '/images/tshirts/prisma-image.png' },
+  { id: 3, name: 'アーバンジャングル', price: '¥4,200', image: '/images/tshirts/project-room.png' },
+  { id: 4, name: 'コズミックナイト', price: '¥3,800', image: '/images/tshirts/realGitHubM.png' },
 ]
 
 export default function TshirtGrid() {
