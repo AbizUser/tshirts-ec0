@@ -1,8 +1,9 @@
 export default function Footer() {
   return (
     <footer className="bg-gray-100">
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <div className="mt-8 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between">
+      <div className="max-w-7xl mx-auto pb-8 px-4 sm:px-6 lg:px-8">
+        <div className="mt-2 border-gray-200 pt-8 md:flex md:items-center md:justify-between">
+        {/* <div className="mt-8 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between"> */}
           <div className="flex space-x-6 md:order-2">
             <a href="#" className="text-gray-400 hover:text-gray-500">
               <span className="sr-only">Facebook</span>
