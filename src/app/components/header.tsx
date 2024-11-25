@@ -1,4 +1,4 @@
-import { ShoppingCart } from 'lucide-react'
+// import { ShoppingCart } from 'lucide-react'
 import Link from 'next/link'
 import Head from 'next/head'
 
